@@ -785,7 +785,7 @@
     
     [[UIToolbar appearance] setTintColor:contentColor];
     [[UIToolbar appearance] setBarTintColor:primaryColor];
-    [[UIToolbar appearance] setClipsToBounds:YES];
+    //[[UIToolbar appearance] setClipsToBounds:YES];
 }
 
 #pragma GCC diagnostic pop
