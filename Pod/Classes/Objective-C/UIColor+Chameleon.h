@@ -1022,7 +1022,10 @@ typedef NS_ENUM (NSInteger, UIShadeStyle) {
  *  @since 2.0
  */
 - (UIColor * _Nullable)lightenByPercentage:(CGFloat)percentage;
-
+- (UIColor * _Nullable)desaturateByPercentage:(CGFloat)percentage ;
+    
+- (UIColor * _Nullable)saturateByPercentage:(CGFloat)percentage ;
+    
 #pragma mark - Deprecated Methods
 
 /**
